@@ -1,0 +1,198 @@
+/* About.css */
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f5; /* Светлый фон */
+    color: #333; /* Основной цвет текста */
+  }
+  
+  .about-page h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .about-page p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+    color: rgb(255, 234, 234);
+  }
+  
+  /* Дополнительные стили для адаптивности */
+  @media (max-width: 768px) {
+    .about-page h1 {
+      font-size: 2rem;
+    }
+  
+    .about-page p {
+      font-size: 1rem;
+    }
+  }
+  
+
+
+
+
+  .about-page {
+    background-image: url('https://fonetastik.com/wp-content/uploads/2024/02/temnyi-fon-645.webp');
+    background-size: cover; /* Растянуть фон, чтобы покрыть весь экран */
+    background-position: center; /* Центрировать изображение */
+    background-repeat: no-repeat; /* Запретить повторение */
+    color: #ebdfdf; /* Цвет текста для лучшей видимости */
+    padding: 20px;
+    min-height: 100vh; /* Занимает всю высоту экрана */
+  }
+  
+
+
+
+
+  .about-page {
+    padding: 20px;
+  }
+  
+  .about-page h1, .about-page h2 {
+    font-size: 2em;
+  }
+  
+  .about-page p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .about-page {
+    padding: 20px;
+  }
+  
+  .about-page h1, .about-page h2 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .about-page {
+    padding: 20px;
+  }
+  
+  .about-page h1, .about-page h3 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .about-page p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  
+  
+  .skills-section {
+    margin-top: 20px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  
+  
+  /* Задержка для каждого элемента */
+  .skill:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .skill:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .skill:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .skill:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  .skill:nth-child(5) {
+    animation-delay: 1s;
+  }
+  
+  /* Анимация появления */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Эффект движения */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Конечное положение */
+    }
+  }
+  
+  /* Эффект движения и тени при наведении */
+  .skill:hover {
+    transform: translateY(-8px) scale(1.1); /* Движение вверх и увеличение */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени */
+  }
+  .skills-section {
+    margin-top: 20px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill {
+    padding: 10px 20px;
+    background-color: #afa4a4;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    color: #000000;
+    opacity: 0; /* Изначально скрыт */
+    animation: fadeIn 0.5s ease forwards; /* Анимация появления */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный переход при наведении */
+  }
+  
+  /* Задержка для каждого блока навыков */
+  .skill:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .skill:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .skill:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .skill:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  .skill:nth-child(5) {
+    animation-delay: 1s;
+  }
+  
+  /* Анимация плавного появления и движения вверх */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Начальная позиция ниже */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Конечная позиция */
+    }
+  }
+  
+  /* Эффект увеличения и тени при наведении */
+  .skill:hover {
+    transform: translateY(-8px) scale(1.1); /* Движение вверх и увеличение */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени */
+  }
+    
+  

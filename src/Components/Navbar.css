@@ -22,4 +22,105 @@
   .nav-links a:hover {
     text-decoration: underline;
   }
+
+
+
+
+  /* src/Components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: inherit; /* Поддержка текущей темы */
+  color: inherit;
+}
+
+button {
+  background-color: inherit; /* Кнопка поддерживает текущую тему */
+  color: inherit;
+  border: 2px solid;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+  /* src/Components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: inherit; /* Поддержка темы */
+  color: inherit;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit; /* Поддержка текущего цвета текста */
+}
+
+.theme-toggle-btn {
+  padding: 5px 10px;
+  border: 2px solid;
+  background-color: inherit; /* Поддержка темы */
+  color: inherit;
+  cursor: pointer;
+}
+
+.theme-toggle-btn:hover {
+  background-color: rgba(165, 0, 0, 0.1);
+  background-color: white;
   
+  
+}
+
+
+.language-toggle-btn {
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+/* Navbar.css */
+.portfolio-img {
+  width: 20px; /* Ширина изображения */
+  height: 20px; /* Высота изображения */
+  border-radius: 10%; /* Сделать изображение круглым, если нужно */
+  margin-right: 10px; /* Отступ между изображением и ссылками */
+}
+
+/* Navbar.css */
+.navbar-img-face {
+  width: 80px; /* Начальная ширина */
+  height: 80px; /* Начальная высота */
+  border-radius: 70%; /* Скругленные края */
+  margin-right: 10px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный переход */
+}
+
+.navbar-img-face:hover {
+  transform: scale(1.1); /* Увеличение изображения при наведении */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Добавление тени при наведении */
+}
+
+
+
+
+
+
+
+@keyframes blinking {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+
+

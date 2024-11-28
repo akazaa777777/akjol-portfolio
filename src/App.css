@@ -4,3 +4,125 @@
   margin: 0;
   padding: 0;
 }
+
+div {
+  text-align: center;
+}
+
+
+
+/* Дополнительные стили для других элементов */
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для светлой темы */
+
+
+
+/* Стили для тёмной темы */
+
+
+
+/* Базовые стили */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Стили для светлого режима */
+
+
+/* Стили для тёмного режима */
+
+
+/* Стили для навбара */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links li {
+  display: inline;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+  color: #ddd;
+}
+
+/* Стили кнопки переключения темы */
+.theme-toggle-btn {
+  padding: 10px 20px;
+  background-color: #ffb74d;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-toggle-btn:hover {
+  background-color: #ffa726;
+}
+
+/* Стили для тёмного режима (navbar и кнопка) */
+.app.dark-mode .navbar {
+  background-color: #1f1f1f;
+}
+
+.app.dark-mode .theme-toggle-btn {
+  background-color: #616161;
+  color: #f0f0f0;
+}
+
+.app.dark-mode .theme-toggle-btn:hover {
+  background-color: #757575;
+}
+
+/* Стили для контента */
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+}
